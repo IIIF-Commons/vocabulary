@@ -1,0 +1,24 @@
+{
+	"compilerOptions": {
+		"lib": [
+			"dom",
+			"es6"
+		],
+		"declaration": true,
+		"moduleResolution": "node",
+		"module": "commonjs",
+		"target": "es6",
+        "noUnusedLocals": false,
+        "types": [
+            "manifesto.js",
+            "node",
+            "three"
+        ]
+	},
+	"include": [
+		"*"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}
