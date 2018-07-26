@@ -2,8 +2,8 @@
   "name": "vocabulary",
   "version": "1.0.0",
   "description": "IIIF Vocabulary",
-  "main": "index.js",
-  "types": "",
+  "main": "./dist/index.js",
+  "types": "./index.d.ts",
   "scripts": {
     "browserify": "browserify ./index.js -o ./dist/index.js"
   },
@@ -11,8 +11,8 @@
     "type": "git",
     "url": "git+https://github.com/IIIF-Commons/vocabulary.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "@edsilv",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/IIIF-Commons/vocabulary/issues"
   },
