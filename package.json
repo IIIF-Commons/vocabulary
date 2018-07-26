@@ -5,7 +5,7 @@
   "main": "./dist/index.js",
   "types": "./index.d.ts",
   "scripts": {
-    "browserify": "browserify ./index.js -o ./dist/index.js"
+    "dist": "browserify ./index.js -o ./dist/index.js"
   },
   "repository": {
     "type": "git",
