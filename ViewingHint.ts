@@ -1,7 +1,7 @@
 export enum ViewingHint {
     CONTINUOUS =    "continuous",
     INDIVIDUALS =   "individuals",
-    NONPAGED =      "non-paged",
+    NON_PAGED =      "non-paged",
     PAGED =         "paged",
     TOP =           "top"
 }
