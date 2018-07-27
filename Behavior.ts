@@ -1,4 +1,4 @@
 export enum Behavior {
-    AUTOADVANCE =       "auto-advance",
-    NONAV =             "no-nav"
+    AUTO_ADVANCE =          "auto-advance",
+    NO_NAV =                "no-nav"
 }

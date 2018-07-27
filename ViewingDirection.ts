@@ -1,6 +1,6 @@
 export enum ViewingDirection {
-    LEFTTORIGHT = "left-to-right",
-    RIGHTTOLEFT = "right-to-left",
-    TOPTOBOTTOM = "top-to-bottom",
-    BOTTOMTOTOP = "bottom-to-top"
+    LEFT_TO_RIGHT =         "left-to-right",
+    RIGHT_TO_LEFT =         "right-to-left",
+    TOP_TO_BOTTOM =         "top-to-bottom",
+    BOTTOM_TO_TOP =         "bottom-to-top"
 }
