@@ -2,10 +2,10 @@
   "name": "vocabulary",
   "version": "0.0.0",
   "description": "IIIF Vocabulary",
-  "main": "./dist/index.js",
-  "types": "./index.d.ts",
+  "main": "./index.js",
+  "types": "./types/index.d.ts",
   "scripts": {
-    "build": "tsc && browserify ./index.js -o ./dist/index.js"
+    "build": "tsc && browserify ./index.js -o ./browser/index.js"
   },
   "repository": {
     "type": "git",

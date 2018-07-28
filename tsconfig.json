@@ -5,7 +5,7 @@
 			"es6"
 		],
 		"declaration": true,
-		"declarationDir": "./dist",
+		"declarationDir": "./types",
 		"moduleResolution": "node",
 		"module": "commonjs",
 		"target": "es6",
