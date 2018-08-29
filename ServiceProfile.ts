@@ -38,6 +38,7 @@ export enum ServiceProfile {
     AUTH_1_KIOSK =                              "http://iiif.io/api/auth/1/kiosk",
     AUTH_1_LOGIN =                              "http://iiif.io/api/auth/1/login",
     AUTH_1_LOGOUT =                             "http://iiif.io/api/auth/1/logout",
+    AUTH_1_PROBE =                              "http://iiif.io/api/auth/1/probe",
     AUTH_1_TOKEN =                              "http://iiif.io/api/auth/1/token",
 
     // search api
