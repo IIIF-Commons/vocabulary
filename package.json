@@ -1,9 +1,9 @@
 {
   "name": "@iiif/vocabulary",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "IIIF Vocabulary",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "./dist/vocabulary.js",
+  "types": "./dist/vocabulary.d.ts",
   "scripts": {
     "build": "tsc"
   },
