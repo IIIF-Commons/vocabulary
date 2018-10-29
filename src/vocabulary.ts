@@ -1,3 +1,71 @@
+export enum AnnotationMotivation {
+    BOOKMARKING =       "oa:bookmarking",
+    CLASSIFYING =       "oa:classifying",
+    COMMENTING =        "oa:commenting",
+    DESCRIBING =        "oa:describing",
+    EDITING =           "oa:editing",
+    HIGHLIGHTING =      "oa:highlighting",
+    IDENTIFYING =       "oa:identifying",
+    LINKING =           "oa:linking",
+    MODERATING =        "oa:moderating",
+    PAINTING =          "sc:painting",
+    QUESTIONING =       "oa:questioning",
+    REPLYING =          "oa:replying",
+    TAGGING =           "oa:tagging",
+    TRANSCRIBING =      "oad:transcribing"
+}
+
+export enum Behavior {
+    AUTO_ADVANCE =          "auto-advance",
+    CONTINUOUS =            "continuous",
+    FACING_PAGES =          "facing-pages",
+    HIDDEN =                "hidden",
+    INDIVIDUALS =           "individuals",
+    MULTI_PART =            "multi-part",
+    NO_NAV =                "no-nav",
+    NON_PAGED =             "non-paged",
+    PAGED =                 "paged",
+    REPEAT =                "repeat",
+    SEQUENCE =              "sequence",
+    THUMBNAIL_NAV =         "thumbnail-nav",
+    TOGETHER =              "together",
+    UNORDERED =             "unordered"
+}
+
+export enum ExternalResourceType {
+    CANVAS =                "canvas",
+    CHOICE =                "choice",
+    DOCUMENT =              "document",
+    IMAGE =                 "image",
+    MOVING_IMAGE =          "movingimage",
+    PHYSICAL_OBJECT =       "physicalobject",
+    SOUND =                 "sound",
+    TEXT =                  "textualbody"
+}
+
+export enum IIIFResourceType {
+    ANNOTATION =        "annotation",
+    CANVAS =            "canvas",
+    COLLECTION =        "collection",
+    MANIFEST =          "manifest",
+    RANGE =             "range",
+    SEQUENCE =          "sequence"
+}
+
+export enum MediaType {
+    JPG =           "image/jpeg",
+    MP4 =           "video/mp4",
+    PDF =           "application/pdf",
+    THREEJS =       "application/vnd.threejs+json",
+    WEBM =          "video/webm"
+}
+
+export enum RenderingFormat {
+    DOC =       "application/msword",
+    DOCX =      "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    PDF =       "application/pdf"
+}
+
 export enum ServiceProfile {
 
     // image api
@@ -56,4 +124,19 @@ export enum ServiceProfile {
     // other
     OTHER_MANIFESTATIONS =                      "http://iiif.io/api/otherManifestations.json",
     IXIF =                                      "http://wellcomelibrary.org/ld/ixif/0/alpha.json"
+}
+
+export enum ViewingDirection {
+    BOTTOM_TO_TOP =         "bottom-to-top",
+    LEFT_TO_RIGHT =         "left-to-right",
+    RIGHT_TO_LEFT =         "right-to-left",
+    TOP_TO_BOTTOM =         "top-to-bottom"
+}
+
+export enum ViewingHint {
+    CONTINUOUS =    "continuous",
+    INDIVIDUALS =   "individuals",
+    NON_PAGED =      "non-paged",
+    PAGED =         "paged",
+    TOP =           "top"
 }

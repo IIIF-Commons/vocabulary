@@ -2,10 +2,10 @@
   "name": "vocabulary",
   "version": "0.0.0",
   "description": "IIIF Vocabulary",
-  "main": "./index.js",
-  "types": "./types/index.d.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsc && browserify ./index.js -o ./browser/index.js"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/IIIF-Commons/vocabulary#readme",
   "devDependencies": {
-    "browserify": "^16.2.2",
-    "typescript": "^2.9.2"
+    "typescript": "^3.1.3"
   }
 }
