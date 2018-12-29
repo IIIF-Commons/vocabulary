@@ -1,6 +1,6 @@
 {
   "name": "@iiif/vocabulary",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "IIIF Vocabulary",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
