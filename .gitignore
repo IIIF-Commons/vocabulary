@@ -1,4 +1,8 @@
-node_modules
+dist-commonjs
+dist-esmodule
+dist-umd
+coverage
+docs
 npm-debug.log
-dist
-*.js
+node_modules
+debug.log

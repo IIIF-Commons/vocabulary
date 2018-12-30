@@ -2,10 +2,12 @@
   "name": "@iiif/vocabulary",
   "version": "1.0.3",
   "description": "IIIF Vocabulary",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "./dist-commonjs/index.js",
+  "types": "./dist-commonjs/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "clean": "npx rimraf dist-umd dist-commonjs dist-esmodule",
+    "build": "npm run clean && tsc && tsc -m es6 --outDir dist-esmodule && webpack",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,10 @@
   },
   "homepage": "https://github.com/IIIF-Commons/vocabulary#readme",
   "devDependencies": {
-    "typescript": "^3.1.3"
+    "awesome-typescript-loader": "^5.2.1",
+    "rimraf": "^2.6.2",
+    "typescript": "^3.1.3",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.1.2"
   }
 }
