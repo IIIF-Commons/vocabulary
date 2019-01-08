@@ -38,9 +38,11 @@ export enum ExternalResourceType {
     DOCUMENT =                                  "document",
     IMAGE =                                     "image",
     MOVING_IMAGE =                              "movingimage",
+    PDF =                                       "pdf",
     PHYSICAL_OBJECT =                           "physicalobject",
     SOUND =                                     "sound",
-    TEXT =                                      "textualbody"
+    TEXTUALBODY =                               "textualbody",
+    VIDEO =                                     "video"
 }
 
 export enum IIIFResourceType {
