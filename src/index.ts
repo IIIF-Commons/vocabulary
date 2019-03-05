@@ -35,6 +35,7 @@ export enum Behavior {
 export enum ExternalResourceType {
     CANVAS =                                    "canvas",
     CHOICE =                                    "choice",
+    CONTENT_AS_TEXT =                           "contentastext",
     DOCUMENT =                                  "document",
     IMAGE =                                     "image",
     MOVING_IMAGE =                              "movingimage",
