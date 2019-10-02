@@ -1,6 +1,6 @@
 {
   "name": "@iiif/vocabulary",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "IIIF Vocabulary",
   "main": "./dist-esmodule/index.js",
   "types": "./types/index.d.ts",
@@ -13,7 +13,7 @@
     "build:types": "npx dts-bundle-generator --umd-module-name vocabulary -o types/index.d.ts dist-esmodule/index.d.ts",
     "build:docs": "rimraf -rf docs && typedoc --out docs --name vocabulary --theme default --ignoreCompilerErrors --experimentalDecorators --emitDecoratorMetadata --target ES6 --moduleResolution node --preserveConstEnums --stripInternal --suppressExcessPropertyErrors --suppressImplicitAnyIndexErrors --module commonjs src/ && touch docs/.nojekyll",
     "build": "npm run clean && npm run build:commonjs && npm run build:esmodule && npm run build:umd && npm run build:var && npm run build:types",
-    "prepare": "npm run build"
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
