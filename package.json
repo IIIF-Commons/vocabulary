@@ -1,8 +1,9 @@
 {
   "name": "@iiif/vocabulary",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "IIIF Vocabulary",
-  "main": "./dist-esmodule/index.js",
+  "main": "./dist-umd/vocabulary.js",
+  "module": "./dist-esmodule/index.js",
   "types": "./types/index.d.ts",
   "scripts": {
     "clean": "rimraf -rf dist-umd dist-commonjs dist-esmodule dist-var types",
