@@ -56,15 +56,19 @@ export enum IIIFResourceType {
 }
 
 export enum MediaType {
-	CORTO =                                     "application/corto",
-	GLTF =                                      "model/gltf+json",
-	OBJ =                                       "text/plain",
-	PLY =                                       "application/ply",
+    AUDIO_MP4 =                                 "audio/mp4",
+    CORTO =                                     "application/corto",
     DRACO =                                     "application/draco",
+    GLTF =                                      "model/gltf+json",
     JPG =                                       "image/jpeg",
-    MP4 =                                       "video/mp4",
+    M3U8 =                                      "application/vnd.apple.mpegurl",
+    MP3 =                                       "audio/mp3",
+    MPEG_DASH =                                 "application/dash+xml",
+    OBJ =                                       "text/plain",
     PDF =                                       "application/pdf",
+    PLY =                                       "application/ply",
     THREEJS =                                   "application/vnd.threejs+json",
+    VIDEO_MP4 =                                 "video/mp4",
     WEBM =                                      "video/webm"
 }
 
