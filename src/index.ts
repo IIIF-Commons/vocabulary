@@ -36,12 +36,15 @@ export enum ExternalResourceType {
     CANVAS =                                    "canvas",
     CHOICE =                                    "choice",
     CONTENT_AS_TEXT =                           "contentastext",
+    DATASET =                                   "dataset",
     DOCUMENT =                                  "document",
     IMAGE =                                     "image",
+    MODEL =                                     "model",
     MOVING_IMAGE =                              "movingimage",
     PDF =                                       "pdf",
     PHYSICAL_OBJECT =                           "physicalobject",
     SOUND =                                     "sound",
+    TEXT =                                      "text",
     TEXTUALBODY =                               "textualbody",
     VIDEO =                                     "video"
 }
