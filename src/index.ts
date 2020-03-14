@@ -63,7 +63,7 @@ export enum MediaType {
   CORTO = "application/corto",
   DRACO = "application/draco",
   EPUB = "application/epub+zip",
-  GLB = "model/gltf+json",
+  GLB = "model/gltf-binary",
   GLTF = "model/gltf+json",
   JPG = "image/jpeg",
   M3U8 = "application/vnd.apple.mpegurl",
