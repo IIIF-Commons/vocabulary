@@ -1,27 +1,24 @@
 {
-	"compilerOptions": {
-        "allowSyntheticDefaultImports": true,
-        "declaration": true,
-        "forceConsistentCasingInFileNames": true,
-        "jsx": "react",
-        "lib": [ "es2015", "dom", "es2017" ],
-        "module": "commonjs",
-        "moduleResolution": "node",
-        "noImplicitAny": false,
-        "noImplicitReturns": true,
-        "noImplicitThis": true,
-        "noUnusedLocals": true,
-        "noUnusedParameters": false,
-        "outDir": "dist-commonjs",
-        "skipLibCheck": true,
-        "sourceMap": true,
-        "strictNullChecks": true,
-        "suppressImplicitAnyIndexErrors": true,
-        "target": "es5",
-        "types": [
-        ]
-	},
-	"include": [
-		"src/**/*"
-	]
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "lib": ["es2015", "dom", "es2017"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "outDir": "dist-commonjs",
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "target": "es5",
+    "types": []
+  },
+  "include": ["src/**/*"]
 }
