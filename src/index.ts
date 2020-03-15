@@ -74,6 +74,7 @@ export enum MediaType {
   PDF = "application/pdf",
   PLY = "application/ply",
   THREEJS = "application/vnd.threejs+json",
+  USDZ = "model/vnd.usd+zip",
   VIDEO_MP4 = "video/mp4",
   WEBM = "video/webm"
 }
