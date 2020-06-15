@@ -17,7 +17,8 @@ const config = {
         filename: '[name].js',
         libraryTarget: 'umd',
         library: 'vocabulary',
-        umdNamedDefine: true
+        umdNamedDefine: true,
+        globalObject: 'typeof self !== \'undefined\' ? self : this' 
     },
     // Add resolve for `tsx` and `ts` files, otherwise Webpack would
     // only look for common JavaScript file extension (.js)
