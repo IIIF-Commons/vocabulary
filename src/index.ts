@@ -65,6 +65,8 @@ export enum MediaType {
   EPUB = "application/epub+zip",
   GLB = "model/gltf-binary",
   GLTF = "model/gltf+json",
+  IIIF_PRESENTATION_2 = 'application/ld+json;profile="http://iiif.io/api/presentation/2/context.json"',
+  IIIF_PRESENTATION_3 = 'application/ld+json;profile="http://iiif.io/api/presentation/3/context.json"',
   JPG = "image/jpeg",
   M3U8 = "application/vnd.apple.mpegurl",
   MP3 = "audio/mp3",
