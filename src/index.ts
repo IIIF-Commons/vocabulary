@@ -61,6 +61,7 @@ export enum IIIFResourceType {
 export enum MediaType {
   AUDIO_MP4 = "audio/mp4",
   CORTO = "application/corto",
+  DICOM = "application/dicom",
   DRACO = "application/draco",
   EPUB = "application/epub+zip",
   GLB = "model/gltf-binary",
