@@ -35,6 +35,7 @@ export enum Behavior {
 export enum ExternalResourceType {
   CANVAS = "canvas",
   CHOICE = "choice",
+  OA_CHOICE = "oa:choice",
   CONTENT_AS_TEXT = "contentastext",
   DATASET = "dataset",
   DOCUMENT = "document",
