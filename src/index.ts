@@ -65,6 +65,7 @@ export enum MediaType {
   DICOM = "application/dicom",
   DRACO = "application/draco",
   EPUB = "application/epub+zip",
+  GIRDER = "image/vnd.kitware.girder",
   GLB = "model/gltf-binary",
   GLTF = "model/gltf+json",
   IIIF_PRESENTATION_2 = 'application/ld+json;profile="http://iiif.io/api/presentation/2/context.json"',
