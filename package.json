@@ -1,6 +1,6 @@
 {
   "name": "@iiif/vocabulary",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "description": "IIIF Vocabulary",
   "main": "./dist-umd/vocabulary.js",
   "module": "./dist-esmodule/index.js",
