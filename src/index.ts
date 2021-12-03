@@ -81,6 +81,7 @@ export enum MediaType {
   THREEJS = "application/vnd.threejs+json",
   USDZ = "model/vnd.usd+zip",
   VIDEO_MP4 = "video/mp4",
+  WAV = "audio/wav",
   WEBM = "video/webm"
 }
 
