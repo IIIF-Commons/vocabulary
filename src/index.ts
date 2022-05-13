@@ -144,6 +144,7 @@ export enum ServiceProfile {
   UI_EXTENSIONS = "http://universalviewer.io/ui-extensions-profile",
   PRINT_EXTENSIONS = "http://universalviewer.io/print-extensions-profile",
   SHARE_EXTENSIONS = "http://universalviewer.io/share-extensions-profile",
+  DOWNLOAD_EXTENSIONS = "http://universalviewer.io/download-extensions-profile",
 
   // other
   OTHER_MANIFESTATIONS = "http://iiif.io/api/otherManifestations.json",
