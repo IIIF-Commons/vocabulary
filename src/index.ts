@@ -153,7 +153,7 @@ export enum ServiceProfile {
 
 export enum ServiceType {
   IMAGE_SERVICE_2 = "ImageService2",
-  IMAGE_SERVICE_3 = "ImageService3",
+  IMAGE_SERVICE_3 = "ImageService3"
 }
 
 export enum ViewingDirection {
@@ -170,4 +170,3 @@ export enum ViewingHint {
   PAGED = "paged",
   TOP = "top"
 }
-
