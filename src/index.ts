@@ -151,6 +151,11 @@ export enum ServiceProfile {
   IXIF = "http://wellcomelibrary.org/ld/ixif/0/alpha.json"
 }
 
+export enum ServiceType {
+  IMAGE_SERVICE_2 = "ImageService2",
+  IMAGE_SERVICE_3 = "ImageService3",
+}
+
 export enum ViewingDirection {
   BOTTOM_TO_TOP = "bottom-to-top",
   LEFT_TO_RIGHT = "left-to-right",
@@ -165,3 +170,4 @@ export enum ViewingHint {
   PAGED = "paged",
   TOP = "top"
 }
+
