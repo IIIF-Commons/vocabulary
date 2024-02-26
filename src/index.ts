@@ -72,7 +72,7 @@ export enum MediaType {
   IIIF_PRESENTATION_3 = 'application/ld+json;profile="http://iiif.io/api/presentation/3/context.json"',
   JPG = "image/jpeg",
   M3U8 = "application/vnd.apple.mpegurl",
-  MP3 = "audio/mp3",
+  MP3 = "audio/mpeg",
   MPEG_DASH = "application/dash+xml",
   OBJ = "text/plain",
   OPF = "application/oebps-package+xml",
