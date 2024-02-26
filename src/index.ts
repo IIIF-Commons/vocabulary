@@ -74,7 +74,7 @@ export enum MediaType {
   M3U8 = "application/vnd.apple.mpegurl",
   MP3 = "audio/mpeg",
   MPEG_DASH = "application/dash+xml",
-  OBJ = "text/plain",
+  OBJ = "model/obj",
   OPF = "application/oebps-package+xml",
   PDF = "application/pdf",
   PLY = "application/ply",
