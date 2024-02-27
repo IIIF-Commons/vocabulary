@@ -88,6 +88,7 @@ export enum MediaType {
 export enum RenderingFormat {
   DOC = "application/msword",
   DOCX = "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  ODT = "application/vnd.oasis.opendocument.text"
   PDF = "application/pdf"
 }
 
