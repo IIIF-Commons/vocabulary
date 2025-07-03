@@ -6,9 +6,9 @@ A central place to keep all IIIF strings/namespaces and make them available as t
 
 ### Publishing Package
 
-    git checkout master
+    git checkout main
     npm version patch
     git add .
     git commit -m "Release v1.2.3"
     git tag v1.2.3
-    git push origin master v1.2.3
+    git push origin main v1.2.3
