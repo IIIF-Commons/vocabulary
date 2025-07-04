@@ -12,7 +12,7 @@ export enum AnnotationMotivation {
   QUESTIONING = "oa:questioning",
   REPLYING = "oa:replying",
   TAGGING = "oa:tagging",
-  TRANSCRIBING = "oad:transcribing"
+  TRANSCRIBING = "oad:transcribing",
 }
 
 export enum Behavior {
@@ -29,7 +29,7 @@ export enum Behavior {
   SEQUENCE = "sequence",
   THUMBNAIL_NAV = "thumbnail-nav",
   TOGETHER = "together",
-  UNORDERED = "unordered"
+  UNORDERED = "unordered",
 }
 
 export enum ExternalResourceType {
@@ -47,7 +47,7 @@ export enum ExternalResourceType {
   SOUND = "sound",
   TEXT = "text",
   TEXTUALBODY = "textualbody",
-  VIDEO = "video"
+  VIDEO = "video",
 }
 
 export enum IIIFResourceType {
@@ -56,7 +56,7 @@ export enum IIIFResourceType {
   COLLECTION = "collection",
   MANIFEST = "manifest",
   RANGE = "range",
-  SEQUENCE = "sequence"
+  SEQUENCE = "sequence",
 }
 
 export enum MediaType {
@@ -83,13 +83,14 @@ export enum MediaType {
   USDZ = "model/vnd.usd+zip",
   VIDEO_MP4 = "video/mp4",
   WAV = "audio/wav",
-  WEBM = "video/webm"
+  WEBM = "video/webm",
 }
 
 export enum RenderingFormat {
   DOC = "application/msword",
   DOCX = "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-  PDF = "application/pdf"
+  ODT = "application/vnd.oasis.opendocument.text",
+  PDF = "application/pdf",
 }
 
 export enum ServiceProfile {
@@ -149,19 +150,19 @@ export enum ServiceProfile {
 
   // other
   OTHER_MANIFESTATIONS = "http://iiif.io/api/otherManifestations.json",
-  IXIF = "http://wellcomelibrary.org/ld/ixif/0/alpha.json"
+  IXIF = "http://wellcomelibrary.org/ld/ixif/0/alpha.json",
 }
 
 export enum ServiceType {
   IMAGE_SERVICE_2 = "ImageService2",
-  IMAGE_SERVICE_3 = "ImageService3"
+  IMAGE_SERVICE_3 = "ImageService3",
 }
 
 export enum ViewingDirection {
   BOTTOM_TO_TOP = "bottom-to-top",
   LEFT_TO_RIGHT = "left-to-right",
   RIGHT_TO_LEFT = "right-to-left",
-  TOP_TO_BOTTOM = "top-to-bottom"
+  TOP_TO_BOTTOM = "top-to-bottom",
 }
 
 export enum ViewingHint {
@@ -169,5 +170,5 @@ export enum ViewingHint {
   INDIVIDUALS = "individuals",
   NON_PAGED = "non-paged",
   PAGED = "paged",
-  TOP = "top"
+  TOP = "top",
 }

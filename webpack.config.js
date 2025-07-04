@@ -18,7 +18,7 @@ const config = {
         libraryTarget: 'umd',
         library: 'vocabulary',
         umdNamedDefine: true,
-        globalObject: 'typeof self !== \'undefined\' ? self : this' 
+        globalObject: 'typeof self !== \'undefined\' ? self : this'
     },
     // Add resolve for `tsx` and `ts` files, otherwise Webpack would
     // only look for common JavaScript file extension (.js)
@@ -36,9 +36,7 @@ const config = {
         rules: [
             {
                 test: /\.ts$/,
-                use: [
-                    { loader: 'awesome-typescript-loader' }
-                ]
+                loader: 'ts-loader'
             }
         ]
     }
