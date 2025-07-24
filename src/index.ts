@@ -60,11 +60,14 @@ export enum IIIFResourceType {
 }
 
 export enum MediaType {
+  APNG = "image/apng",
   AUDIO_MP4 = "audio/mp4",
+  AVIF = "audio/avif",
   CORTO = "application/corto",
   DICOM = "application/dicom",
   DRACO = "application/draco",
   EPUB = "application/epub+zip",
+  GIF = "image/gif",
   GIRDER = "image/vnd.kitware.girder",
   GLB = "model/gltf-binary",
   GLTF = "model/gltf+json",
@@ -79,11 +82,14 @@ export enum MediaType {
   OPF = "application/oebps-package+xml",
   PDF = "application/pdf",
   PLY = "application/ply",
+  PNG = "image/png",
+  SVG = "image/svg+xml",
   THREEJS = "application/vnd.threejs+json",
   USDZ = "model/vnd.usd+zip",
   VIDEO_MP4 = "video/mp4",
   WAV = "audio/wav",
   WEBM = "video/webm",
+  WEBP = "image/webp",
 }
 
 export enum RenderingFormat {
