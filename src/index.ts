@@ -52,6 +52,8 @@ export enum ExternalResourceType {
 
 export enum IIIFResourceType {
   ANNOTATION = "annotation",
+  ANNOTATION_COLLECTION = "annotationcollection",
+  ANNOTATION_PAGE = "annotationpage",
   CANVAS = "canvas",
   COLLECTION = "collection",
   MANIFEST = "manifest",
@@ -146,6 +148,8 @@ export enum ServiceProfile {
   SEARCH_0_AUTO_COMPLETE = "http://iiif.io/api/search/0/autocomplete",
   SEARCH_1 = "http://iiif.io/api/search/1/search",
   SEARCH_1_AUTO_COMPLETE = "http://iiif.io/api/search/1/autocomplete",
+  SEARCH_2 = "http://iiif.io/api/search/2/search",
+  SEARCH_2_AUTO_COMPLETE = "http://iiif.io/api/search/2/autocomplete",
 
   // extensions
   TRACKING_EXTENSIONS = "http://universalviewer.io/tracking-extensions-profile",
@@ -162,6 +166,8 @@ export enum ServiceProfile {
 export enum ServiceType {
   IMAGE_SERVICE_2 = "ImageService2",
   IMAGE_SERVICE_3 = "ImageService3",
+  SEARCH_SERVICE_2 = "SearchService2",
+  AUTO_COMPLETE_SERVICE_2 = "AutoCompleteService2"
 }
 
 export enum ViewingDirection {
