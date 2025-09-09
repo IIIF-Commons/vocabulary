@@ -52,6 +52,8 @@ export enum ExternalResourceType {
 
 export enum IIIFResourceType {
   ANNOTATION = "annotation",
+  ANNOTATION_COLLECTION = "annotationcollection",
+  ANNOTATION_PAGE = "annotationpage",
   CANVAS = "canvas",
   COLLECTION = "collection",
   MANIFEST = "manifest",
