@@ -64,6 +64,7 @@ export enum IIIFResourceType {
 export enum MediaType {
   APNG = "image/apng",
   AUDIO_MP4 = "audio/mp4",
+  AUDIO_OGG = "audio/ogg",
   AVIF = "audio/avif",
   CORTO = "application/corto",
   DICOM = "application/dicom",
@@ -89,6 +90,7 @@ export enum MediaType {
   THREEJS = "application/vnd.threejs+json",
   USDZ = "model/vnd.usd+zip",
   VIDEO_MP4 = "video/mp4",
+  VIDEO_OGG = "video/ogg",
   WAV = "audio/wav",
   WEBM = "video/webm",
   WEBP = "image/webp",
